@@ -1,0 +1,29 @@
+{
+    "name": "carbon/sqlitecache",
+    "type": "neos-plugin",
+    "description": "Enable SQLite Cache in Neos",
+    "license": "MIT",
+    "require": {
+        "neos/neos": "~3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carbon\\SQLite\\": "Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jon Uhlmann",
+            "email": "me@jonnitto.ch",
+            "homepage": "https://github.com/jonnitto",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "marketplace-account": "me@jonnitto.ch",
+        "installer-name": "Carbon.SQLite",
+        "neos": {
+            "package-key": "Carbon.SQLite"
+        }
+    }
+}
