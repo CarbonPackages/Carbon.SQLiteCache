@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Carbon\\SQLite\\": "Classes"
+            "Carbon\\SQLiteCache\\": "Classes"
         }
     },
     "authors": [
@@ -21,9 +21,9 @@
     ],
     "extra": {
         "marketplace-account": "me@jonnitto.ch",
-        "installer-name": "Carbon.SQLite",
+        "installer-name": "Carbon.SQLiteCache",
         "neos": {
-            "package-key": "Carbon.SQLite"
+            "package-key": "Carbon.SQLiteCache"
         }
     }
 }
