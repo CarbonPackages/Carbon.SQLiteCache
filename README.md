@@ -7,20 +7,16 @@
 [![GitHub followers](https://img.shields.io/github/followers/jonnitto.svg?style=social&label=Follow)](https://github.com/jonnitto/followers)
 [![Follow Jon on Twitter](https://img.shields.io/twitter/follow/jonnitto.svg?style=social&label=Follow)](https://twitter.com/jonnitto)
 
-Carbon.SQLite Package for Neos CMS
-==================================
+# Carbon.SQLite Package for Neos CMS
 
 If you install this package, your cache will be stored in SQLite. On some environments, this is much faster as the default file cache.
 
-Installation
-------------
+## Installation
 
 ```
 composer require carbon/sqlitecache
 ```
 
-
-License
--------
+## License
 
 Licensed under MIT, see [LICENSE](LICENSE)
