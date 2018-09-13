@@ -1,34 +1,41 @@
 Neos_Fusion_Content:
   backend: Neos\Cache\Backend\PdoBackend
   backendOptions:
+    defaultLifetime: 0
     dataSourceName: 'sqlite:%FLOW_PATH_TEMPORARY%Cache/Data/Neos_Fusion_Content.sqlite'
 
 Flow_Mvc_Routing_Route:
   backend: Neos\Cache\Backend\PdoBackend
   backendOptions:
+    defaultLifetime: 0
     dataSourceName: 'sqlite:%FLOW_PATH_TEMPORARY%Cache/Data/Flow_Mvc_Routing_Route.sqlite'
 
 Flow_Mvc_Routing_Resolve:
   backend: Neos\Cache\Backend\PdoBackend
   backendOptions:
+    defaultLifetime: 0
     dataSourceName: 'sqlite:%FLOW_PATH_TEMPORARY%Cache/Data/Flow_Mvc_Routing_Resolve.sqlite'
 
 Flow_Persistence_Doctrine:
   backend: Neos\Cache\Backend\PdoBackend
   backendOptions:
+    defaultLifetime: 0
     dataSourceName: 'sqlite:%FLOW_PATH_TEMPORARY%Cache/Data/Flow_Persistence_Doctrine.sqlite'
 
 Flow_Security_Authorization_Privilege_Method:
   backend: Neos\Cache\Backend\PdoBackend
   backendOptions:
+    defaultLifetime: 0
     dataSourceName: 'sqlite:%FLOW_PATH_TEMPORARY%Cache/Data/Flow_Security_Authorization_Privilege_Method.sqlite'
 
 Flow_Cache_ResourceFiles:
   backend: Neos\Cache\Backend\PdoBackend
   backendOptions:
+    defaultLifetime: 0
     dataSourceName: 'sqlite:%FLOW_PATH_TEMPORARY%Cache/Data/Flow_Cache_ResourceFiles.sqlite'
 
 Neos_Media_ImageSize:
   backend: Neos\Cache\Backend\PdoBackend
   backendOptions:
+    defaultLifetime: 0
     dataSourceName: 'sqlite:%FLOW_PATH_TEMPORARY%Cache/Data/Neos_Media_ImageSize.sqlite'
